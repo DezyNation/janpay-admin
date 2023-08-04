@@ -29,7 +29,7 @@ const Assign = () => {
 
     const Formik = useFormik({
         initialValues: {
-            beneficiaryId: fetchedUser.id || "",
+            beneficiaryId: fetchedUser?.id || "",
             packageId: ""
         },
         onSubmit: values => {
