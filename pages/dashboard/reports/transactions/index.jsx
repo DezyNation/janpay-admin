@@ -178,7 +178,7 @@ const Ledger = () => {
       .then((res) => {
         setLoading(false);
         // setPrintableRow(res.data);
-        fileDownload(res.data, `TransactionsLedger.xlsx`);
+        fileDownload(res.data, `TransactionsLedger${Formik.values.userId || ""}(${Formik.values.from}-${Formik.values.to}).xlsx`);
       })
       .catch((err) => {
         setLoading(false);
