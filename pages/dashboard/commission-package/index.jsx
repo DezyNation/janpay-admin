@@ -715,10 +715,10 @@ const CommissionSetup = () => {
                                     <Th>AePS Aadhaar Pay</Th>
                                     <Th>AePS Mini Statement</Th>
                                     <Th>BBPS</Th> */}
-                  <Th>Payout</Th>
-                  <Th>DMT</Th>
-                  <Th>Recharge</Th>
-                  {/* <Th>LIC</Th>
+                                    <Th>Payout</Th>
+                                    <Th>DMT</Th>
+                                    <Th>Recharge</Th>
+                                    {/* <Th>LIC</Th>
                                     <Th>CMS</Th>
                                     <Th>Fastag</Th> */}
                   <Th>Delete Package</Th>
@@ -827,38 +827,38 @@ const CommissionSetup = () => {
                                                         Set Commission
                                                     </Button>
                                                 </Td> */}
-                      {/* Payout */}
-                      <Td>
-                        <Button
-                          size={"sm"}
-                          colorScheme={"blue"}
-                          onClick={() => handleModal(item.id, "payout")}
-                        >
-                          Set Commission
-                        </Button>
-                      </Td>
-                      {/* DMT */}
-                      <Td>
-                        <Button
-                          size={"sm"}
-                          colorScheme={"blue"}
-                          onClick={() => handleModal(item.id, "dmt")}
-                        >
-                          Set Commission
-                        </Button>
-                      </Td>
-                      {/* Recharge */}
-                      <Td>
-                        <Button
-                          size={"sm"}
-                          colorScheme={"blue"}
-                          onClick={() => handleModal(item.id, "recharge")}
-                        >
-                          Set Commission
-                        </Button>
-                      </Td>
-                      {/* LIC */}
-                      {/* <Td>
+                                                    {/* Payout */}
+                                                <Td>
+                                                    <Button
+                                                        size={'sm'}
+                                                        colorScheme={'blue'}
+                                                        onClick={() => handleModal(item.id, "payout")}
+                                                    >
+                                                        Set Commission
+                                                    </Button>
+                                                </Td>
+                                                    {/* DMT */}
+                                                <Td>
+                                                    <Button
+                                                        size={'sm'}
+                                                        colorScheme={'blue'}
+                                                        onClick={() => handleModal(item.id, "dmt")}
+                                                    >
+                                                        Set Commission
+                                                    </Button>
+                                                </Td>
+                                                    {/* Recharge */}
+                                                <Td>
+                                                    <Button
+                                                        size={'sm'}
+                                                        colorScheme={'blue'}
+                                                        onClick={() => handleModal(item.id, "recharge")}
+                                                    >
+                                                        Set Commission
+                                                    </Button>
+                                                </Td>
+                                                    {/* LIC */}
+                                                {/* <Td>
                                                     <Button
                                                         size={'sm'}
                                                         colorScheme={'blue'}

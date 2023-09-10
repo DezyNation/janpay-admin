@@ -493,6 +493,7 @@ const FundRequests = () => {
                 resizable: true,
                 suppressMovable: true
               }}
+              suppressScrollOnNewData={true}
               onFilterChanged={(params) => {
                 setPrintableRow(
                   params.api.getRenderedNodes().map((item) => {
