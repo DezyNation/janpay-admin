@@ -431,8 +431,14 @@ const Index = () => {
           setLoading(false);
           Toast({
             status: "success",
-            description: `Payout ${params.data.payout_id} updated!`,
+            description: `Payout ${params.data?.amount} ${res.data?.metadata?.status}!`,
           });
+
+          setReceipt({
+            data: res.data?.metadata,
+            status: res.data?.metadata?.status,
+            show: true
+          })
           
           fetchPendingTransactions();
         })
